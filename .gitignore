@@ -19,3 +19,6 @@ android/\.settings/org\.eclipse\.buildship\.core\.prefs
 # coverage
 coverage
 lcov.info
+
+.flutter-plugins-dependencies
+.dart_tool/package_config.json

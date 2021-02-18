@@ -13,7 +13,7 @@ void main() {
   String path;
   bool isRecording = false;
   File file;
-
+  TestWidgetsFlutterBinding.ensureInitialized();
   setUpAll(() async {
     tempDirectory = await Directory.systemTemp.createTemp();
     path = '${tempDirectory.path}/$fileName';
